@@ -10,7 +10,7 @@ _Note: as of now, the guide is for mac users, though in time it may be adjusted 
 # GAA Workspace Setup
 
 ## set shell to bash 
-if your shell is zsh run ```chsh -s /bin/bash`` then quit and re-open terminal
+if your shell is zsh run ```chsh -s /bin/bash``` then quit and re-open terminal
     
 for further introduction on unix shell, see [this workshop](https://ubc-library-rc.github.io/intro-shell/content/01-what-is-the-shell.html) 
 
