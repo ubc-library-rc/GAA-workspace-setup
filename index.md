@@ -126,11 +126,8 @@ $ gem install jekyll
 $ gem install jekyll-seo-tag
 $ gem install jekyll-remote-theme
 ```
-
 3. ```gem env``` to see file paths   
-
-4. run ```code ~/.bash_profile``` to open up your bash profile in the code editor. you will see two paths set from earlier. in order for jekyll to run you need to set the file paths of the RubyGems, add the following lines into the text file in the order below. save and close your bash profile.
-    
+4. run ```code ~/.bash_profile``` to open up your bash profile in the code editor. you will see two paths set from earlier. in order for jekyll to run you need to set the file paths of the RubyGems, add the following lines into the text file in the order below. save and close your bash profile.    
 ```bash
 eval "$(/opt/homebrew/bin/brew shellenv)"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
@@ -138,6 +135,5 @@ export PATH="/opt/homebrew/lib/ruby/gems/3.1.0/bin:$PATH"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 export PATH="/opt/homebrew/Cellar/ruby/3.1.3/lib/ruby/gems/3.1.0:$PATH"
 ```
-
 5. now you can run any workshop site locally by changing to the outermost directory of the repo and running the terminal command ```jekyll serve```
 6. cut and paste the server address for the local host into any web-browser
