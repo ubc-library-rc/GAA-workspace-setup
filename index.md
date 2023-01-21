@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Workflow
+title: Setup Workflow
 nav_order: 1
 ---
 
