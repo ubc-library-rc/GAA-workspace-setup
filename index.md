@@ -125,6 +125,7 @@ you should have the latest version now
 $ gem install jekyll
 $ gem install jekyll-seo-tag
 $ gem install jekyll-remote-theme
+$ gem install jekyll-include-cache
 ```
 3. ```gem env``` to see file paths   
 4. run ```code ~/.bash_profile``` to open up your bash profile in the code editor. you will see two paths set from earlier. in order for jekyll to run you need to set the file paths of the RubyGems, add the following lines into the text file in the order below. save and close your bash profile.    
